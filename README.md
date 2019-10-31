@@ -8,15 +8,19 @@ The codebase is included in the *src/* folder. The rest of the project was gener
 
 ## Instructions
 
-To run the APP:
+Please, note that the app has been tested extensively on Android devices, due to unavailability of a MAC computer.
+To run the APP on an Android device, follow these steps:
 
 * Clone or download this repo
 
-* Go the project folder and run `react-native install`
+* Go the project folder and run `npm install`
 
-* Connect an iOS or Android device via USB (you need to also enable USB debugging on your device)
+* Start an Android emulator, or connect an Android device via USB. For the latter, you need to
+make sure that USB debugging is enabled on your device.
 
-* Run `react-native start`
+* Run `react-native start`, which will run the Metro Bundler. 
+
+* Open **another** terminal and run `react-native run-android`. 
 
 ## External libraries
 
